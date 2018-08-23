@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Main-Icon" version="1" viewBox="0 0 420 420">
+  <style>
+    .st0{fill:#40bfef}.st1{fill:#fff}.st2{fill:#009ee2}
+  </style>
+  <g id="Bottom-Light">
+    <path id="Left-BL" d="M96 313l75 43v-87z" class="st0"/>
+    <path id="Mid-BL" d="M246 313l-75-44v87z" class="st0"/>
+    <path id="Right-BL" d="M171 356l75 43v-87z" class="st0"/>
+  </g>
+  <g id="Bottom-White">
+    <path id="Left-BW" d="M171 270l-75-44v87z" class="st1"/>
+    <path id="Mid-BW" d="M171 270l75 43v-87z" class="st1"/>
+    <path id="Right-BW" d="M321 270l-75-44v87z" class="st1"/>
+  </g>
+  <g id="Bottom-Dark">
+    <path id="Bottom-BD" d="M321 356l-75-44v87z" class="st2"/>
+    <path id="Top-BD" d="M246 313l75 43v-87z" class="st2"/>
+  </g>
+  <g id="Right-Light">
+    <path id="Bottom-RL" d="M246 227l75 43v-87z" class="st0"/>
+    <path id="Top-RL" d="M321 184l-75-44v87z" class="st0"/>
+  </g>
+  <g id="Right-Dark">
+    <path id="Far-Left-RD" d="M321 98l-75-44v87z" class="st2"/>
+    <path id="Mid-Left-RD" d="M246 141l75 43V97z" class="st2"/>
+    <path id="Mid-Top-RD" d="M396 141l-75-44v87z" class="st2"/>
+    <path id="Middle-RD" d="M321 184l75 43v-87z" class="st2"/>
+    <path id="Bottom-RD" d="M396 227l-75-44v87z" class="st2"/>
+  </g>
+  <g id="Left-Dark">
+    <path id="Right-Mid-LD" d="M171 184l75 43v-87z" class="st2"/>
+    <path id="Bottom-Right-LD" d="M246 227l-75-44v87z" class="st2"/>
+    <path id="Bottom-Left-LD_1_" d="M96 227l75 43v-87z" class="st2"/>
+    <path id="Left-Mid-LD" d="M171 184l-75-44v87z" class="st2"/>
+    <path id="Top-Left-LD" d="M21 184l75 43v-87z" class="st2"/>
+    <path id="Mid-Left-LD" d="M96 227l-75-44v87z" class="st2"/>
+    <path id="Bottom-Left-LD" d="M21 270l75 43v-87z" class="st2"/>
+  </g>
+  <g id="Top-Light">
+    <path id="Bottom-TL" d="M247 141l-75-44v87z" class="st0"/>
+    <path id="MidBottom-TL" d="M97 141l75 43V97z" class="st0"/>
+    <path id="MidTop-TL" d="M172 98L97 54v87z" class="st0"/>
+    <path id="Top-TL" d="M97 55l75 43V11z" class="st0"/>
+  </g>
+  <g id="Top-White">
+    <path id="Bottom-TW" d="M246 55l-75-44v87z" class="st1"/>
+    <path id="Top-TW" d="M171 98l75 43V54z" class="st1"/>
+  </g>
+</svg>

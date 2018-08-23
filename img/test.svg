@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" version="1" viewBox="0 0 420 420">
+  <style>
+    .st0{fill:#40bfef}.st1{fill:#fff}.st2{fill:#009ee2}
+  </style>
+  <path id="Lb-top" d="M210 211L35 109v203z" class="st0"/>
+  <path id="Lb-bottom" d="M35 311l175 101V210z" class="st0"/>
+  <path id="W-left" d="M35 110l175 101V9z" class="st1"/>
+  <path id="W-right" d="M385 110L210 9v202z" class="st1"/>
+  <path id="Db-top" d="M210 211l175 101V109z" class="st2"/>
+  <path id="Db-bottom" d="M385 311L210 210v202z" class="st2"/>
+</svg>
