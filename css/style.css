@@ -23,47 +23,46 @@
 
 
 #main-nav{
-  height:25px;
+  height:20px;
   width: 100%;
-}
-.main-nav-bar{
-  height:19px;
-  background-color: red;
-
-  list-style-type: none;
   left: 0;
   bottom: 0;
   position: fixed;
-  width: 100%;
   margin-bottom: 60px;
-  text-align:center;
+  /* background-color: yellow; */
+}
+.main-nav-bar{
+  height:20px;
+  width: 60%;
+  margin: 0 auto;
+  /* background-color: red; */
+  list-style-type: none;
   font-family: 'Circular-Book';
   font-size: 1em;
-  overflow: hidden;
+  text-align: center;
 }
 .main-nav-item{
-
-  background-color: blue;
-  height:19px;
-
-  display:inline;
+  height: 20px;
+  /* width: 200px; */
+  /* background-color: blue; */
+  display:inline-block;
 }
 .main-nav-link{
   color: #ffffff;
   text-decoration: none;
   letter-spacing: 7px;
-  padding: 0px 20px 0px 20px;
+  /* background-color: green; */
+  padding: 0 20px 0 20px;
 
 }
 .main-nav-break{
   background-color: #009fe3;
   width: 3px;
-  height:19px;
-  display: inline-block;
+
 }
-#main-nav-about{
+/* #main-nav-about{
   width: 150px;
-}
+} */
 
 
 .main-nav-link:hover{
@@ -185,6 +184,7 @@
   -moz-animation: reveal 1s forwards;
   -webkit-animation: reveal 1s forwards;
   animation: reveal 1s forwards;
+  animation-direction: alternate;
 }
 /********** GROUP ONE **********/
 #Right-Mid-LD{
