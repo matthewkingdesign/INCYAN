@@ -1,12 +1,12 @@
-/* DESCRIPTION */
+/************* DESCRIPTION *************/
 
-/* COLOUR SCHEME */
+/************* COLOUR SCHEME *************/
 /* #009fe3 */
 /* #b00582 */
 /* #ffffff */
 /* #1d1d1b */
 
-/* FONTS */
+/************* FONTS *************/
 @font-face {
     font-family: 'Circular-Book';
     src: url('/fonts/CircularStd-Book.otf');
@@ -19,8 +19,6 @@
 /************* NAVIGATION *************/
 
 /************* BOTTOM NAV *************/
-
-
 
 #main-nav{
   height:20px;
@@ -69,7 +67,7 @@
     color: #009fe3;
 }
 
-/***** LAYOUT *****/
+/************* LAYOUT *************/
 .container{
   background-color: #1d1d1b;
   height: 100vh;
@@ -102,7 +100,7 @@
   display: none;
 } */
 
-/***** RESEARCH *****/
+/************* RESEARCH *************/
 .research-content{
   text-align: center;
   color: #ffffff;
@@ -165,7 +163,7 @@
   margin-bottom: 20px
 }
 
-/*** HOMEPAGE LOGO ***/
+/************* HOMEPAGE LOGO *************/
 
 .logo-container{
   width: 100%;
@@ -178,7 +176,9 @@
   margin: 0 auto;
 }
 
-/* ANIMATION */
+/************* ANIMATION *************/
+
+/************* HOMEPAGE LOGO *************/
 .st0, .st1, .st2{
   fill-opacity:0;
   -moz-animation: reveal 1s forwards;
@@ -186,7 +186,8 @@
   animation: reveal 1s forwards;
   animation-direction: alternate;
 }
-/********** GROUP ONE **********/
+/************* ANIMATION DELAY *************/
+/************* GROUP ONE *************/
 #Right-Mid-LD{
   animation-delay: 100ms;
 }
