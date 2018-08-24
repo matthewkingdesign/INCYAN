@@ -2,7 +2,7 @@
 
 /************* COLOUR SCHEME *************/
 /* #009fe3 */
-/* #b00582 */
+/* #40bfef */
 /* #ffffff */
 /* #1d1d1b */
 
@@ -67,82 +67,36 @@
     color: #009fe3;
 }
 
-/************* LAYOUT *************/
+/************* GENERAL STYLES *************/
+
 .container{
   background-color: #1d1d1b;
   height: 100vh;
 }
-/* .container h1{
-  font-family: 'Circular-Bold';
-  color: #ffffff;
-} */
-/* Layout styles organised by element */
-
-/*** NAVIGATION ***/
-
-/*** RESEARCH NAV ***/
-
 #home-button{
   width: 55px;
   padding: 30px 0 0 30px;
   /* display: none; */
 }
-/* #main-nav-about{
-  display: none;
-}
-#main-nav-research{
-  display: none;
-}
-#main-nav-clients{
-  display: none;
-}
-#main-nav-contact{
-  display: none;
-} */
 
 /************* RESEARCH *************/
-.research-content{
+.research-nav{
   text-align: center;
-  color: #ffffff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
 }
-#left-arrow{
-
+.research-nav-bar{
+  list-style: none;
 }
-.middle{
-  height: 200px;
-}
-.middle > *{
+.research-nav-item{
+  display:inline-block;
   vertical-align: middle;
 }
-.middle img{
+.arrows{
   height: 10px;
   padding-left: 40px;
   padding-right: 40px;
 }
-.research-icon-container{
-  color: #009fe3;
-  font-family: 'Circular-Bold';
+.research-icon{
   height: 200px;
-}
-.research-icon-container ul li img{
-  height: 10px;
-  vertical-align: middle;
-}
-#research-arrow-left{
-  text-align: right;
-}
-#research-icon{
-  height: 200px;
-}
-#research-icons{
-  display: block;
-  height: 150px;
-  margin: 0 auto;
 }
 .research-title{
   color: #009fe3;
@@ -153,7 +107,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.research-description, research-cto{
+.research-copy{
   font-family: 'Circular-Book';
   color: #ffffff;
   text-align: center;
@@ -165,13 +119,13 @@
 
 /************* HOMEPAGE LOGO *************/
 
-.logo-container{
+.home-page-logo-container{
   width: 100%;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
 }
-.test-logo{
+.main-icon{
   width: 300px;
   margin: 0 auto;
 }
@@ -384,6 +338,24 @@
   animation-delay: 600ms;
 }
 
+/********** RESEARCH ICONS **********/
+#Bottom-LB{
+fill:#40bfef;
+animation-delay: 500ms;
+}
+#Mid-Left-DB{
+fill:#009ee2;
+animation-delay: 100ms;
+}
+#Mid-Right-DB{
+fill:#009ee2;
+animation-delay: 250ms;
+}
+#Top-W{
+fill:#ffffff;
+animation-delay: 400ms;
+}
+
 @keyframes reveal {
   0% {
     fill-opacity:0;
@@ -410,10 +382,10 @@
     fill-opacity:0;
   }
   80% {
-    fill-opacity:0;
+    fill-opacity:.5;
   }
   90% {
-    fill-opacity:0;
+    fill-opacity:.75;
   }
   100% {
     fill-opacity:1;
